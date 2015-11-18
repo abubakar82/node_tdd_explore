@@ -4,7 +4,8 @@
   "description": "node tdd explore",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "pretest": "tsc -p ./",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
     "tdd"
   ],
   "author": "byavv",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "moment": "^2.10.6",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "typescript": "^1.6.2"
+  }
 }
