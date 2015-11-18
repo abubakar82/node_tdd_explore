@@ -1,0 +1,19 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "node tdd explore",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node_tdd_explore"
+  },
+  "keywords": [
+    "node",
+    "tdd"
+  ],
+  "author": "byavv",
+  "license": "ISC"
+}
